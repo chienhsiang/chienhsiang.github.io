@@ -1,6 +1,5 @@
----
+layout: page
 title: Test
----
 
 
 ## Welcome to GitHub Pages
