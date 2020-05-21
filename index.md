@@ -1,6 +1,5 @@
 ---
-title: "My site"
-layout: default
+title: "Home"
 ---
 
 ## [Blog](blog.md)
