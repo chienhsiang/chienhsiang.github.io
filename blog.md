@@ -1,2 +1,5 @@
+---
+title: Blog
+---
 
 Test
