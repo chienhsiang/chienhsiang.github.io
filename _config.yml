@@ -1,3 +1,3 @@
 title: "My site"
-description: constructing..
+description: <a href="/">Home</a>  <a href="/blog/">Blog</a>
 theme: jekyll-theme-tactile
