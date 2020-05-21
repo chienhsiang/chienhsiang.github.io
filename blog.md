@@ -1,6 +1,6 @@
 ---
 title: Blog
-permlink: "/blog"
+permalink: "/blog"
 ---
 
 Test
