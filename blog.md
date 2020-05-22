@@ -7,9 +7,9 @@ permalink: "/blog/"
 # Posts
 ---
 {% for post in site.posts %}
-<h5>{{ post.date | date: "%F" }} &emsp; {{ post.title }}</h5>
+<h5 style='font-weight: bold;'>{{ post.date | date: "%F" }} &ensp; {{ post.title }}</h5>
 {{ post.excerpt }}
-<a href="{{ post.url }}" style="color:blue;">(Read more...)</a>
+<p style="margin-left: 200px"><a href="{{ post.url }}" style="color:blue;">(Read more...)</a></p>
 <hr>
 {% endfor %}
 
