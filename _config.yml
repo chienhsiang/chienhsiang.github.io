@@ -1,7 +1,5 @@
-title: "My site"
-description: >
-  <a href="/" style="color:#A9A9A9;">Home</a> <a href="/blog/" style="color:#A9A9A9;>Blog</a>
-
+title: "Chien-Hsiang"
+description: <a href="/" style="color:#A9A9A9;">Home</a> <a href="/blog/" style="color:#A9A9A9;>Blog</a>
 email: hsuchienhsiang@gmail.com
 github_username: chienhsiang
 theme: jekyll-theme-tactile
