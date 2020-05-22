@@ -7,7 +7,7 @@ title: "Chien-Hsiang"
   * test 2
 
 
-## Post
+## Posts
 <ul>
   {% for post in site.posts %}
     <li>
