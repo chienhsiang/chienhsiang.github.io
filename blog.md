@@ -4,10 +4,10 @@ permalink: "/blog/"
 href_style: "color:#A9A9A9;"
 ---
 
-Posts
+# Posts
 ---
 {% for post in site.posts %}
-<h1>{{ post.date | date: %F }} - {{ post.title }}</h1>
+<h2>{{ post.date | date: %F }} - {{ post.title }}</h2>
 {{ post.excerpt }}
 <a href="{{ post.url }}" style="color:blue;">Read more...</a>
 {% endfor %}

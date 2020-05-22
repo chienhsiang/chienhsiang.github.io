@@ -5,8 +5,8 @@ tag: jazz
 ---
 
 ## First test post
-test something
-line 2
+test something  
+line 2  
 
 <!--more-->
 line more
