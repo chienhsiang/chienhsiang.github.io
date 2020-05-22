@@ -1,8 +1,7 @@
 ---
 title: "Hello World"
-layout: post
 categories: math
-tag: jzz
+tag: jazz
 ---
 
 First test post
