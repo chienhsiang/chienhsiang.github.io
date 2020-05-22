@@ -7,11 +7,11 @@ permalink: "/blog/"
 # Posts
 ---
 {% for post in site.posts %}
-<p style="margin-left: 200px">
-    <h5 style='font-weight: bold;'>{{ post.date | date: "%F" }} &ensp; {{ post.title }}</h5>
-    {{ post.excerpt | remove: '<p>' | | remove: '</p>' | markdownify }} <br>
+<h5 style='font-weight: bold;'>{{ post.date | date: "%F" }} &ensp; {{ post.title }}</h5>
+<div style="margin-left: 200px">
+    {{ post.excerpt }}
     <a href="{{ post.url }}" style="color:blue;">(Read more...)</a>
-</p>
+</div>
 <hr>
 {% endfor %}
 
