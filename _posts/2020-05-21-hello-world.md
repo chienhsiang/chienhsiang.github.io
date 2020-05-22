@@ -8,5 +8,5 @@ tag: jazz
 test something
 line 2
 
-<!--more-->
+
 line more
