@@ -1,9 +1,7 @@
 ---
 title: "Hello World"
-date: 
 categories: math
 tag: jazz
-
 ---
 
 ## First test post
