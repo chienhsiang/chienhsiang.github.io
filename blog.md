@@ -1,13 +1,15 @@
 ---
 title: Blog
 permalink: "/blog/"
+href_style: "color:#A9A9A9;"
 ---
 
-## Posts
-<ul>
-  {% for post in site.posts %}
-    <h2><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></h2>
-    {{ post.excerpt }}
-  {% endfor %}
-</ul>
+# Posts
+---
+{% for post in site.posts %}
+<a href="{{ post.url }}" style="{{ href_style }}">{{ post.date }} - {{ post.title }}</a>
+{{ post.excerpt }}
+<a href="{{ post.url }}" style="{{ href_style }}">Read more...</a>
+{% endfor %}
+
 
