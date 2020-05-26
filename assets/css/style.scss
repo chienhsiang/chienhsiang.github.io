@@ -2,8 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
-/* Icon */
+#menu a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: #A9A9A9;;
+    text-decoration: none;
+}
 
+    #menu a:active, #menu a:hover {
+        color: #666;
+    }
+
+/* Icon */
 .icon {
     text-decoration: none;
     border-bottom: none;
