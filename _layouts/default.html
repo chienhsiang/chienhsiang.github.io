@@ -19,7 +19,12 @@
 
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          <br>
+          <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+          <nav>
+            <a href="/" style="color:#A9A9A9;">Home</a> &ensp; 
+            <a href="/blog/" style="color:#A9A9A9;">Blog</a>
+          </nav>
         </header>
 <!--         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
