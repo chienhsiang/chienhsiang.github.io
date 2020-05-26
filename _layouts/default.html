@@ -16,15 +16,14 @@
   <body>
     <div id="container">
       <div class="inner">
-        <header style="padding-bottom:0px;display:flex;justify-content:space-between">
-          <h1 style="display:inline-block;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <nav style="display:inline-block;">
+        <header style="padding-bottom:0px;">
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <nav style="text-align:right;display:inline-block;">
             <a href="/" style="color:#A9A9A9;">Home</a> | 
             <a href="/blog/" style="color:#A9A9A9;">Blog</a>
           </nav>
           <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
         </header>
-        
         <hr>
         <section id="main_content">
           {{ content }}

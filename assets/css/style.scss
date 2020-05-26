@@ -1,9 +1,7 @@
 ---
 ---
 
-@import "jekyll-theme-tactile";
-/* Footer */
-
+@import "{{ site.theme }}";
 #footer {
     padding: 8em 0 6em 0;
     background: #f6f6f6;
