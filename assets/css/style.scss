@@ -7,7 +7,7 @@
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    color: #A9A9A9;;
+    color: #666;;
     text-decoration: none;
 }
 
@@ -38,6 +38,7 @@
 /* Footer */
 #footer {
     padding: 8em 0 6em 0;
+    padding-top: 0px;
     // background: #f6f6f6;
     color: #aaa;
     text-align: center;
