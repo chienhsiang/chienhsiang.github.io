@@ -7,11 +7,9 @@ description: >
 
 ---
 ## To Do
-  * test 55
-
-  ~~1. Change padding and left margin of bullet points.~~
-  1. ~~Change padding and left margin of bullet points.~~
-  2. [x] Change padding and left margin of numerical points.
+  * [x] test 56
+  1. Change padding and left margin of bullet points. [x] 
+  2. Change padding and left margin of numerical points. [x] 
   3. Add icons of google scholar, github and linkedin.
 
 
