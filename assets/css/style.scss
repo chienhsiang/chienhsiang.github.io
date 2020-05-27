@@ -32,13 +32,13 @@ ol li {
 
         #blog_h5 a:active, #blog_h5 a:hover {
             // color: #aaa;
-            color: black
+            color: #393939;
         }
 
 #menu {
     text-align: right;
     padding-bottom: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
     #menu a {
         -moz-transition: color 0.2s ease-in-out;
@@ -46,12 +46,14 @@ ol li {
         -ms-transition: color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out;
         text-decoration: none;
-        color: #666;
+        // color: #666;
+        color: #d5000d;
     }
 
         #menu a:active, #menu a:hover {
-            // color: #aaa;
-            color: black
+            // color: #393939;
+            // color: #c5000c;
+            color: #a2000a
         }
 
 /* Icon */
