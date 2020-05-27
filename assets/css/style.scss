@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import url(font-awesome.min.css);
 ul li {
     list-style-position: outside;
     list-style: disc;
@@ -71,7 +72,7 @@ ul.icons {
         ul.icons li .icon:before {
             font-size: 2em;
         }
-        
+
 .icon {
     text-decoration: none;
     border-bottom: none;
