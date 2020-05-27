@@ -26,13 +26,16 @@ ol li {
         -webkit-transition: color 0.2s ease-in-out;
         -ms-transition: color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out;
-        color: #666;
+        // color: #666;
+        color: #4daf4a;
         text-decoration: none;
     }
 
         #blog_h5 a:active, #blog_h5 a:hover {
             // color: #aaa;
-            color: #393939;
+            // color: #393939;
+            // color: #6ec16b;
+            color: #80c87d;
         }
 
 #menu {
@@ -54,7 +57,10 @@ ol li {
             // color: #393939;
             // color: #c5000c;
             // color: #a2000a;
-            color: #ff2003
+            // color: #ff2003;
+            color: #ff2330;
+            // color: #d5000d;
+            // color: #ff0918;
         }
 
 /* Icon */
