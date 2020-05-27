@@ -7,10 +7,10 @@ description: >
 
 ---
 ## To Do
-  * test 57
+  * test 58
 
-  [x] Change padding and left margin of bullet points. 
-  [x] Change padding and left margin of numerical points.
+  - [x] Change padding and left margin of bullet points. 
+  - [x] Change padding and left margin of numerical points.
   3. Add icons of google scholar, github and linkedin.
 
 

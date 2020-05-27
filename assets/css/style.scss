@@ -32,14 +32,13 @@ ol li {
 
         #blog_h5 a:active, #blog_h5 a:hover {
             // color: #aaa;
-            font-weight: bold;
+            color: black
         }
 
 #menu {
     text-align: right;
     padding-bottom: 0px;
-    color: #666;
-    font-size: 16px;
+    font-size: 18px;
 }
     #menu a {
         -moz-transition: color 0.2s ease-in-out;
@@ -47,11 +46,12 @@ ol li {
         -ms-transition: color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out;
         text-decoration: none;
+        color: #666;
     }
 
         #menu a:active, #menu a:hover {
             // color: #aaa;
-            font-weight: bold;
+            color: black
         }
 
 /* Icon */
