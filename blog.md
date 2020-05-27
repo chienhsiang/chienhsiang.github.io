@@ -11,7 +11,7 @@ permalink: "/blog/"
         {{ post.date | date: "%F" }} &ensp; {{ post.title }}
     </a>
 </h5>
-<div style="margin-left: 20px">
+<div style="margin-left: 20px;padding-top: 0px;">
     <p style="padding-top: 0px;">
         {{ post.excerpt | remove: '<p>' | remove: '</p>'}} &emsp;
         <a href="{{ post.url }}" style="color:blue;">(Read more...)</a>
