@@ -4,5 +4,5 @@ email: hsuchienhsiang@gmail.com
 github_username: chienhsiang
 url: "https://chienhsiang.github.io/"
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: jekyll-theme-tactile
 excerpt_separator: <!--more-->
