@@ -2,6 +2,25 @@
 ---
 
 @import "{{ site.theme }}";
+#blog_h5 {
+    color: #aaa;
+    font-weight: bold;
+    padding-bottom: 0.5em
+}
+
+    #blog_h5 a {
+        -moz-transition: color 0.2s ease-in-out;
+        -webkit-transition: color 0.2s ease-in-out;
+        -ms-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+        color: #aaa;
+        text-decoration: none;
+    }
+
+        #blog_h5 a:active, #menu a:hover {
+            color: #666;
+        }
+
 #menu {
     text-align: right;
     padding-bottom: 0px;

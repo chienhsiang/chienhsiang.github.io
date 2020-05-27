@@ -6,7 +6,7 @@ permalink: "/blog/"
 
 {% for post in site.posts %}
 <hr>
-<h5 style="font-weight: bold; padding-bottom: 0.5em">
+<h5 id="blog_h5">
     <a href="{{ post.url }}" style="color:blue;">
         {{ post.date | date: "%F" }} &ensp; {{ post.title }}
     </a>
