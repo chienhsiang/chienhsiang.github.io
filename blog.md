@@ -16,7 +16,6 @@ permalink: "/blog/"
         <a href="{{ post.url }}" style="color:blue;">(Read more...)</a>
     </p>
 </div>
-<hr>
 {% endfor %}
 
 
