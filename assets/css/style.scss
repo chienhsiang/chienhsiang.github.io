@@ -2,11 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
-#menu {
-    color: #9d9d9d;
-    text-align: right;
-    padding-bottom: 0px;
-}
+// #menu {
+//     color: #9d9d9d;
+//     text-align: right;
+//     padding-bottom: 0px;
+// }
     #menu a {
         -moz-transition: color 0.2s ease-in-out;
         -webkit-transition: color 0.2s ease-in-out;
@@ -17,7 +17,7 @@
     }
 
         #menu a:active, #menu a:hover {
-            color: #666;
+            color: green;
         }
 
 /* Icon */
