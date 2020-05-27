@@ -1,6 +1,5 @@
 ---
 title: CH's Blog
-description: ""
 permalink: "/blog/"
 ---
 <!-- style='font-weight: bold;' -->
