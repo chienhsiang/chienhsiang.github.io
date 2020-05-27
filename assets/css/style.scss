@@ -17,9 +17,8 @@ ol li {
 }
 
 #blog_h5 {
-    color: #aaa;
     // font-weight: bold;
-    padding-bottom: 0.3em
+    padding-bottom: 0.3em;
 }
 
     #blog_h5 a {
@@ -32,24 +31,27 @@ ol li {
     }
 
         #blog_h5 a:active, #blog_h5 a:hover {
-            color: #aaa;
+            // color: #aaa;
+            font-weight: bold;
         }
 
 #menu {
     text-align: right;
     padding-bottom: 0px;
+    color: #666;
+    font-size: 16px;
 }
     #menu a {
         -moz-transition: color 0.2s ease-in-out;
         -webkit-transition: color 0.2s ease-in-out;
         -ms-transition: color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out;
-        color: #666;
         text-decoration: none;
     }
 
         #menu a:active, #menu a:hover {
-            color: #aaa;
+            // color: #aaa;
+            font-weight: bold;
         }
 
 /* Icon */
