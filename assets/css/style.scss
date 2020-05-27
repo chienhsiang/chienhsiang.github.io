@@ -2,22 +2,21 @@
 ---
 
 @import "{{ site.theme }}";
-// #menu {
-//     color: #9d9d9d;
-//     text-align: right;
-//     padding-bottom: 0px;
-// }
+#menu {
+    text-align: right;
+    padding-bottom: 0px;
+}
     #menu a {
         -moz-transition: color 0.2s ease-in-out;
         -webkit-transition: color 0.2s ease-in-out;
         -ms-transition: color 0.2s ease-in-out;
         transition: color 0.2s ease-in-out;
-        color: #666;
+        color: #aaa;
         text-decoration: none;
     }
 
         #menu a:active, #menu a:hover {
-            color: green;
+            color: #666;
         }
 
 /* Icon */
