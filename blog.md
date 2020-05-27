@@ -1,5 +1,6 @@
 ---
 title: CH's Blog
+description: ""
 permalink: "/blog/"
 ---
 <!-- style='font-weight: bold;' -->
@@ -7,7 +8,7 @@ permalink: "/blog/"
 {% for post in site.posts %}
 <hr>
 <h5 id="blog_h5">
-    <a href="{{ post.url }}" style="color:blue;">
+    <a href="{{ post.url }}">
         {{ post.date | date: "%F" }} &ensp; {{ post.title }}
     </a>
 </h5>
