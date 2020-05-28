@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import "font-awesome.min.css";
 ul li {
     list-style-position: outside;
     list-style: disc;
