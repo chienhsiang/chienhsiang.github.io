@@ -52,44 +52,44 @@ ol li {
             color: #ff2330;
         }
 
-/* Icon */
-ul.icons {
-    cursor: default;
-    list-style: none;
-    padding-left: 0;
-}
+// /* Icon */
+// ul.icons {
+//     cursor: default;
+//     list-style: none;
+//     padding-left: 0;
+// }
 
-    ul.icons li {
-        display: inline-block;
-        padding: 0 1em 0 0;
-    }
+//     ul.icons li {
+//         display: inline-block;
+//         padding: 0 1em 0 0;
+//     }
 
-        ul.icons li:last-child {
-            padding-right: 0;
-        }
+//         ul.icons li:last-child {
+//             padding-right: 0;
+//         }
 
-        ul.icons li .icon:before {
-            font-size: 2em;
-        }
+//         ul.icons li .icon:before {
+//             font-size: 0;
+//         }
 
-.icon {
-    text-decoration: none;
-    border-bottom: none;
-    position: relative;
-}
+// .icon {
+//     text-decoration: none;
+//     border-bottom: none;
+//     position: relative;
+// }
 
-    .icon:before {
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-transform: none !important;
-    }
+//     .icon:before {
+//         -moz-osx-font-smoothing: grayscale;
+//         -webkit-font-smoothing: antialiased;
+//         font-family: FontAwesome;
+//         font-style: normal;
+//         font-weight: normal;
+//         text-transform: none !important;
+//     }
 
-    .icon > .label {
-        display: none;
-    }
+//     .icon > .label {
+//         display: none;
+//     }
 
 /* Footer */
 #footer {
@@ -114,16 +114,16 @@ ul.icons {
         }
 
     #footer .icons {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
         #footer .icons li {
             padding-right: 2.5em;
         }
 
-            #footer .icons li:last-child {
-                padding-right: 0;
-            }
+            // #footer .icons li:last-child {
+            //     padding-right: 0;
+            // }
 
     #footer .copyright {
         margin: 2em 0;
