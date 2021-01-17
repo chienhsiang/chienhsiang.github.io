@@ -43,8 +43,9 @@
                 <!-- <span class="category">{{ post.categories }}</span> -->
                 <span style="text-align:left;">
                     <!-- {{ post.categories }} -->
-                    {% for category in post.categories %}
-                        #{{ category }}
+                    {% assign sortedCategories = post.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>                
                     {% endfor %}
                     <span style="float:right;">
                         {{ post.date | date_to_string }}

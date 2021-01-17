@@ -12,6 +12,14 @@ include: ["_pages"]
 permalink: /:title/
 email: hsuchienhsiang@gmail.com
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
+
 # Authors
 authors:
   # sal:
