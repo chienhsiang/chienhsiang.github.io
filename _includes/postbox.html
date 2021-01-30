@@ -49,6 +49,9 @@
                     {% endfor %}
                     <span style="float:right;">
                         {{ post.date | date_to_string: "ordinal", "US" }}
+                        {% if post.last_modified_at %}
+                        (Updated: {{ post.last_modified_at | date_to_string: "ordinal", "US" }})
+                        {% endif %}
                     </span>
                 </span>
                 <!-- <span class="post-date">{{ post.categories }} {{ post.date | date_to_string }}</span> -->
