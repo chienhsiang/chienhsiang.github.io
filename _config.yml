@@ -66,7 +66,6 @@ theme_setting:
 
 head_code: |
   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
-  <link rel="icon" href="{{ site.favicon | relative_url }}">
 
 
 #<link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
