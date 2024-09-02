@@ -1,0 +1,13 @@
+title: Chien-Hsiang's Blog
+email: hsuchienhsiang@gmail.com
+description: >-
+  To Do...
+baseurl: ""
+url: ""
+github_username:  chienhsiang
+
+# Build settings
+theme: jekyll-theme-persephone
+plugins:
+  - jekyll-feed
+
