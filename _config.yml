@@ -2,16 +2,16 @@ title: Chien-Hsiang's Blog
 email: hsuchienhsiang@gmail.com
 description: >-
   To Do...
-baseurl: ''
-# url: ""
-favicon: assets/images/logo.jpeg
+
+# baseurl: ""
+# url: ''
 permalink: /:title/
-# github_username: chienhsiang
 
 # Build settings
 theme: jekyll-theme-persephone
 plugins:
   - jekyll-feed
+  # - jekyll-books
 
 author: Chien-Hsiang Hsu
 
@@ -34,7 +34,7 @@ social:
 
 # The followings are settings for displays of your blog.
 theme_setting:
-  # The slides count in the slides layout. Default is 4.
+  # # The slides count in the slides layout. Default is 4.
   slides_count: 5
   # The ← back URL on the top of your post page. Default is your site's home page.
   blog_page: "index.md"
@@ -45,8 +45,10 @@ theme_setting:
   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
   nav_pages:
     - "about.md"
-    - title: "External Link Title"
-      url: "https://your-external-link.com"
+    - "archive.md"
+    # - "books.md"
+    # - title: "External Link Title"
+    #   url: "https://your-external-link.com"
     
   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
   code: true # Code highlight.
@@ -66,11 +68,8 @@ theme_setting:
 
 head_code: |
   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
+  <link rel="icon" type="image/png" href="/assets/images/logo.png">
 
-
-#<link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
-
-# <link rel="shortcut icon" type="img/x-icon" href="img/logo.jpeg">
 # # The settings of comments.
 # comment:
 #   # You should set it to enable comment
