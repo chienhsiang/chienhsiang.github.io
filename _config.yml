@@ -1,7 +1,7 @@
 title: Chien-Hsiang's Blog
 email: hsuchienhsiang@gmail.com
 description: >-
-  To Do...
+  Computational biologist, jazz, blues and wine enthusiast
 
 # baseurl: ""
 # url: ''
@@ -18,15 +18,15 @@ author: Chien-Hsiang Hsu
 # Your social accounts.
 social:
   github: chienhsiang
-  # twitter: twitter_username
   facebook: "1788502657"
-  # instagram: instagram_username
   linkedin: chien-hsiang-hsu-48795a81
+  # instagram: instagram_username
+  # twitter: twitter_username
 
 # Theme Settings
 
 # Your site's logo. Will be shown on the left top of your page.
-# favicon: /img/logo.jpeg
+logo: /assets/images/logo.svg
 # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
 # img_prefix: https://your-img-cdn.com
 # The RSS link of your blog.
@@ -34,18 +34,22 @@ social:
 
 # The followings are settings for displays of your blog.
 theme_setting:
-  # # The slides count in the slides layout. Default is 4.
+  # The slides count in the slides layout. Default is 4.
   slides_count: 5
+
   # The ← back URL on the top of your post page. Default is your site's home page.
   blog_page: "index.md"
+
   # The URL on your name on the bottom of your post and page. Default is your site's home page.
   about_page: "about.md"
+  
   #  The URL of the menu icon(which has three black lines). Will be shown on the slides/book/chapter layouts It won't be shown if blank.
-  archive_page: "archive.md"
+  # archive_page: "archive.md"
+
   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
   nav_pages:
+    - "blog.md"
     - "about.md"
-    - "archive.md"
     # - "books.md"
     # - title: "External Link Title"
     #   url: "https://your-external-link.com"
@@ -68,7 +72,7 @@ theme_setting:
 
 head_code: |
   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
-  <link rel="icon" type="image/png" href="/assets/images/logo.png">
+  <link rel="icon" type="image/png" href="/assets/images/logo.svg">
 
 # # The settings of comments.
 # comment:
