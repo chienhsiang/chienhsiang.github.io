@@ -1,11 +1,19 @@
 title: Chien-Hsiang's Blog
 email: hsuchienhsiang@gmail.com
 description: >-
-  Computational biologist, jazz, blues and wine enthusiast
+  Computational biologist, enthusiastic about jazz, blues and wine
 
-# baseurl: ""
-# url: ''
-permalink: /:title/
+baseurl: ""
+url: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:title/
 
 # Build settings
 theme: jekyll-theme-persephone
