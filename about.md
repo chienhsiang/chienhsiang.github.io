@@ -6,7 +6,8 @@ permalink: /about/
 
 > Life is a learning experience.
 
-### Favorites
+
+### My Favorite Things <span style="font-size:0.7em">([by Olivia Ong](http://www.youtube.com/watch?v=M0kSP3P-wFA))</span>
 
 #### Jazz
 - Singer: [Diana Krall](https://en.wikipedia.org/wiki/Diana_Krall) ([Temptation](https://www.youtube.com/watch?v=-J9bwNLRiJU))
@@ -26,4 +27,5 @@ permalink: /about/
 - Burgundy (Bourgogne):  
 Georges Lignier et Fils [Chambolle-Musigny](https://www.google.com/maps/place/21220%E6%B3%95%E5%9C%8B%E5%B0%9A%E5%8D%9A%E7%88%BE%E7%B1%B3%E8%A5%BF%E5%B0%BC/@47.1870964,4.911497,14z/data=!3m1!4b1!4m6!3m5!1s0x47f29aa8489c25ef:0x409ce34b3145ec0!8m2!3d47.185496!4d4.952888!16zL20vMDZfejQ1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D) 2017 <img src="/assets/images/wine/Georges_Lignier_Chambolle_Musigny.png" alt="Georges Lignier et Fils Chambolle-Musigny 2017" style="height:150px;"/> (image from [Vivino](https://www.vivino.com/US-MA/en/lignier-georges-et-fils-chambolle-musigny/w/1176763?year=2017))
 
-- Rhône: 
+- Rhône:  
+TBD
