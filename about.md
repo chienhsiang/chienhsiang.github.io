@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-> Life is a learning experience.
-
+> Life is a learning experience.  
+Stay playful.
 
 ### My Favorite Things <span style="font-size:0.7em">([by Olivia Ong](http://www.youtube.com/watch?v=M0kSP3P-wFA))</span>
 
